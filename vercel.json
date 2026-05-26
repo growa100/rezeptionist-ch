@@ -1,13 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "**/*", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/deutschschweiz", "dest": "/deutschschweiz.html" },
-    { "src": "/demos", "dest": "/demos.html" },
-    { "src": "/comparaison", "dest": "/comparaison.html" },
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
