@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.alloreceptionniste.fr/sitemap.xml
+Sitemap: https://www.rezeptionist.ch/sitemap.xml
